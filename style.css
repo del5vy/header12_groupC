@@ -1,12 +1,60 @@
 @import url("https://fonts.googleapis.com/css2?family=Coiny&family=DM+Sans:wght@100;200;300;400;500;600;700;800&family=Sono:wght@400;600;700&display=swap");
 
+body {
+  background: #2f1893 !important;
+}
 .row {
   margin: 0 !important;
 }
 
+.herotext {
+  margin-top: 160px !important;
+}
+
+.page-title {
+  color: #fff;
+}
+
+.beautiful-txt {
+  color: #fff;
+  margin-top: 36px;
+
+  /* Heading / H2 Header */
+  font-family: "DM Sans";
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px; /* 120.69% */
+  letter-spacing: -1px;
+  /* font-weight: 700; */
+  /* height: 350px; */
+}
+
+.high-quality-text {
+  color: #fff;
+  margin-top: 25px;
+
+  /* Heading / H5 Lead */
+  font-family: DM Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 145.455% */
+}
+
+.btn-download {
+  width: 275px;
+  height: 60px;
+  flex-shrink: 0;
+
+  border-radius: 100px;
+  background: var(--action-primary, #25dac5);
+  border: none;
+}
+
 .hero-img {
   margin-top: 92px;
-  width: 100%;
+  width: 80%;
   height: 760px;
   position: relative;
 }
@@ -19,6 +67,7 @@
   height: 683px;
   position: absolute;
   left: 128px;
+  /* right: 60px; */
   top: 37px;
 }
 .phone-image2 {
